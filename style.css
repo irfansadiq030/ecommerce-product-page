@@ -3,6 +3,28 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+h1{
+    font-weight: 600;
+    font-size: 35px;
+}
+.text-highlite{
+    font-weight: 500;
+    font-size: 18px;
+    color: #fc8f29;
+    text-transform: uppercase;
+}
+.selling-price{
+    font-weight: 600;
+    font-size: 25px;
+}
+.badge{font-size: 13px; margin-left: 10px;} 
+
 img-container{
     width: 400px;
     height: 250px;
@@ -16,17 +38,17 @@ img-container{
     width: 400px;
 }
 .active-img{
-    border: 2px solid rgb(255, 174, 0);
+    border: 2px solid #fc8f29;
 }
 .text-area{
     padding-right:50px;
 }
 .buttons-area{
-    width: 155px;
+    width: 200px;
 }
 
 .btn-secondary{
-    background-color: #a4a7a9;
+    background-color: #d7dde0;
     border: 0;
     font-size: 20px;
 }
@@ -36,4 +58,12 @@ img-container{
 }
 .btn-primary:hover{
     background-color: #ed7f19;
+}
+.btn{
+    font-weight: 500;
+    /* font-size: 17px; */
+}
+.btn-txt{
+    color: #fc8f29;
+    font-size: 22px;
 }
