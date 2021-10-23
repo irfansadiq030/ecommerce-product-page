@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img-container{
+    width: 450px;
+    height: 250px;
+    /* border-radius: 30px; */
+}
+.main-img{
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.301);
+}
+.other-images{
+    width: 350px;
+}
+.active-img{
+    border: 2px solid rgb(255, 174, 0);
+
+}
