@@ -17,5 +17,8 @@ img-container{
 }
 .active-img{
     border: 2px solid rgb(255, 174, 0);
-
+}
+.text-area{
+    padding-right:50px;
+    border: 1px solid black;
 }
