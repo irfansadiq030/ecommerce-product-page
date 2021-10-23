@@ -4,7 +4,7 @@
     padding: 0;
 }
 img-container{
-    width: 450px;
+    width: 400px;
     height: 250px;
     /* border-radius: 30px; */
 }
@@ -13,7 +13,7 @@ img-container{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.301);
 }
 .other-images{
-    width: 350px;
+    width: 400px;
 }
 .active-img{
     border: 2px solid rgb(255, 174, 0);
@@ -22,5 +22,18 @@ img-container{
     padding-right:50px;
 }
 .buttons-area{
-    width: 250px;
+    width: 155px;
+}
+
+.btn-secondary{
+    background-color: #a4a7a9;
+    border: 0;
+    font-size: 20px;
+}
+.btn-primary{
+    background-color: #fc8f29;
+    border: 0;
+}
+.btn-primary:hover{
+    background-color: #ed7f19;
 }
