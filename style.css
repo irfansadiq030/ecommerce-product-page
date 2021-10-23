@@ -20,5 +20,7 @@ img-container{
 }
 .text-area{
     padding-right:50px;
-    border: 1px solid black;
+}
+.buttons-area{
+    width: 250px;
 }
